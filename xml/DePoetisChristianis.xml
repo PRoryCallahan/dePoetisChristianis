@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ng/structure/1.0"?>?
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+	<fileDesc>
+		<titleStmt>
+			<title xml:lang="lat">De Poetis Christianis Sacris</title>
+			<author xml:lang="lat">Andreas Christianus Eschenbachius</author>
+			<editor>Patrick Rory Callahan</editor>
+		</titleStmt>
+		<publicationStmt>
+			<date>2020</date>
+		</publicationStmt>
+		<sourceDesc>
+			<listBibl>
+				<biblStruct>
+					<monogr>
+						<title xml:lang="eng">A Collection of Supplements to all editions of Lempriere's Classical Dictionary</title>
+						<editor xml:lang="eng">Edmund Henry Barker</editor>
+						<author ref="urn:cts:callahan:eschenbach" xml:lang="lat">Andreas Christianus Eschenbachius</author>
+						<imprint>
+							<publisher>A. J. Valpy</publisher>
+							<pubPlace>London</pubPlace>
+							<date>1837</date>
+						</imprint>
+						<ref target="https://archive.org/details/collectionofsupp00bark/page/n6/mode/2up">The Internet Archive</ref>
+					</biblStruct>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Text encoded in accordance with the latest EpiDoc standards</p>
+			<refsDecl n="CTS">
+				<cRefPattern matchPattern="( .+)" n="chapter" replacementPattern="#xpath (/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+			</refsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition" xml:lang="lat" n="urn:cts:">
+<head>Andr. Chr. Eschenbachii
+
+DE POETIS CHRISTIANIS SACRIS,
+GRAECIS ET LATINIS,
+DISSERTATIO,
+HABITA ALTODORFII ANNO 1685.
+
+RESPONDENTE
+CHRISTOPH. JACOBO GLASER,
+MEHRENDORFFIO-NORICO.</head>
+</div>
+
+<div type="textpart">
+[Vide Andr. Chr. Eschenbachii Dissertationes Academicas, Noribergae, 1705 12mo. pp.69-132.]
+</div>
+
+<div type="textpart" subtype="prooemium">
+	<p>PROOEMIUM. -––Poësin à fonte omnium bonoroum originem suam derivare, tam certum est, quam quod certissimum. Unde et affirmare ausim, poësin primò excogitatam fuisse ad decantandas Numinis et Heroum laudes: quod etiam abunde satis testantur antiquissimi omnium ferè gentium poëtae. Scriptorem Moyse antiquiorem, nemo, ut spero, nobis dabit: is tamen, cum Mare Rubrum exercitu incolumi transiisset, carmen cecinit, Josepho Antiq. lib. 2. teste, <foreign xml:lang="grc">ἐν ἑξαμέτρῳ τόνῳ</foreign>, in encomium liberatoris Dei, quod habetur Exod. 15. Hymnos Davidicos, Jobi, Jeremiae, Esaiae nonnulla, Canticum Canticorum, quis negabit certis suis numeris composita, variisque carminum generibus conscripta fuisse? Inprimis si D. Hieronymi testimoniis fidem adhibemus, qui in Praefat. Chronici Euseb. pag. 4 edit. Joseph. Scaligeri, Lugdun. Batav. 1606. fol. ita dicit: 'Quid Psalterio canorius? quod in morem nostri Flacci et Graeci Pindari, nunc iambo currit, nunc alcaico personat, nunc sapphico tumet, nunc semipede ingreditur? quid Deuteronomii et Esaiae cantico pulchrius? quid Salomone gravius? quid perfectius Jobo? quae omnia hexametris et pentametris versibus apud suos composita decurrunt.' Confer Maresium, Lib. II. Epist. 38. Ad Graecos si descendamus, videbimus et apud hos illud Theocritic, Idyll. XVI. observatum fuisse:
+
+<foreign xml:lang="grc">
+	Αἰὲν τοῦτο Διὸς κούραις μέλει, αἰὲν ἀοιδοῖς
+	ὑμνεῖν ἀθανάτους, ὑμνεῖν ἀγαθῶν κλέα ἀνδρῶν.
+</foreign>
+
+	Orphei, Lini, Musaei, Homeri, Callimachi Cyrenaei, Pindari, et aliorum hymni, quid aliud nobis persuadent? qui certè antiquissimi sunt. Latinorum Saliorum, Martis sacerdotum, carmina, quae Tullius, lib. de Clar. Orat. (edit. Colon. Allobrog. 1617. f. 4. pag. 294.) tanto affectu desiderat, Deos quoque suos celebrasse, quis dubitat? Clarorum certè virorum laudes continuisse, certius est, quàm ut demonstrationis indigeat. Audiamus ipsum Ciceronem: 'Utinam,' inquit, 'exstarent illa carmina, quae multis ante aetatem suam seculis, in epulis cantitata à singulis convivis fuisse, de claroum virorum laudibus, in Originibus scriptum reliquit Cato.
+
+	Bardorum apud Gallos munus erat, Heroum suorum gesta carmine prosequi. Germani veteres celebrabant carminibus antiquis Tuisconem, Deum terrâ editum, et filium ejus Mannum, originem gentis conditoresque, Tacito, in Germaniâ, teste, cap. 2. Ex quibus liquet, Poësin apud omnes ferè cultiores gentes primùm excultam fuisse, ad praedicandas Numinis et Heroum laudes. Id quod etiam ipsa quasi natura, et ratio Poëseos exposcit. Tritum est illud Horatii, Lib. de Art. Poët.
+
+	'Aut prodesse volunt aut delectare poëtae,
+	Aut simul et jucunda, et idonea dicere vitae.'
+
+	Quid verò magis prodest, aut ex quo majorem fructum exspectare possumus, quàm si Deum nostrum, entheâ illa vi, Divinoque calore, hymnis celebramus, ejusdemque laudes pro virili decantamus? Quid magis delectat, quàm si eandem Deitatem exquisitissimis verborum coloribus ante oculos nostros quasi sistimus? Elegantiam perfectissimi Entis in hac vita nemo satis considerare valet, alius tamen alio perfectius: quid autem magis aequum est, quàm has elegantissimi Entis perfectiones, elegantibus etiam verborum modulis exprimere et cum aliis communicare? Quae certè verborum elegantia nusquam magis reperitur, quàm in carminibus; in quibus artificiosè illa exquisitorum verborum connexa catena tantò fortiùs animos audientium vel legentium trahit, quantò majore pondere in animos nostros labitur. Materiam Poëseos si consideramus, communi consensu dicuntur esse omnes res, sive omnia entia; quid verò heroico ac coelesti poëtae animo magis convenit, quàm supremum ens, Deum suum, elegantissimè cultissimèque celebrare? Horatius Poëtam suum talem esse cupit,
+
+		'Ingenium cui sit, cui mens divinior atque os
+		Magna sonaturum.'
+
+	Ubi verò patentiorem campum talis inveniet, in quo Divinam suam mentem magnificumque os majori cum laude majorique cum fructu exercere possit, quàm in incomprehensibili Deitatis spatio, nullis spatiis circumscripto?
+
+	Sed quid his diutiùs detineor, quae à quovis sanae mentis applausum extorquent: Poëtae nempè (Christiano cumprimis) nullam magis materiam convenire, quàm illam, quam ipse Deus, ejusque verbum illi praebet. Id quod magna cum laude observarunt, hodieque observant, divina quaedam prudentiorum poëtarum ingenia, quorum Catalogum, paucis hisce pagellis B.L. tecum communicare volui. Non tamen animus est omnes poëtas, qui quasvis sacras materias pertractarunt, recensere; sed illos tantùm, qui Christiani cùm fuerint, Christiano Poëtae quasi proprias, seu, ut clariùs dicam, ex Divini verbi Pandectis desumtas materias, poëseos suae objectum elegerunt. Judaeos non affero, ne chartae nostrae modum Disputationis excedant; Gentiles non tango, quoniam illorum sacra profana nimis sunt, et indigan, quae sacris Christianis conjungantur; <foreign xml:lang="grc">τίς γὰρ κοινωνία φωτί πρὸς σκότος, τίς δὲ συμφώνησις Χριστῷ πρὸς Βελίαλ</foreign>; Restant igitur soli Christiani, quos secundum seriem seculorum quibus vixerunt, et quae poëmatibus suis illustrarunt, dispescemus: illorum scripta (sed poëtica tantùm,) breviter recensebimus, editionesque nonnunquam addemus. Sed dicat quis, me cramben bis saepiusve recoctam apponere in enarrandis hisce Poëtis, dum hanc materiam alii, me longe doctiores, Criniti nempe, Gyraldi, Vossii, Borrichii, etc. magno studio et accuratà operâ pertractarint. Huic regero, illos quidem Poëtas summa cum laude enumerasse, sacros tamen profanis, miscuisse; ne dicam, multos te in his nostris pagellis invenire posse, quos illi silentio praeterierunt; quin etiam varia subinde hîc addita esse, quae frustra apud illos quaesiveris. Quicquid sit, non vereor quaedam bis dicere, dum benè dicam. Tandem, si nonnulli omissi fuerint, uti forsan erunt, qui tamen jure hunc in Catalogum referri merebantur, sciat B. L. me per aetatem nondum omnis legisse, et infinita esse, quae longè me doctiores adhuc ignorant. Interea, quae scio, profero; quae nescio, vel à quovis discere cupio.
+</p>
+</div>
+
+<div type="textpart" subtype="section" n="I">
+<p>
+SECTIO I. –– De Poëtis Christianis Sacris iisque Graecis.
+
+<div type="textpart" subtype="chapter" n="1">
+	<p>
+§ I. Quàm exosum primis à Christo Nato seculis Nomen Christianorum omnibus ferè gentibus fuerit, vel ex solo Arnobii Libri Primi principio cognoscere est; ubi ille solennes Gentilium contra Christianos querelas affert, et ita loqui solitos testatur: 'Postquam esse in mundo gens Christiana coepit, terrarum orbem periisse, multiformibus malia affectum esse genus humanum: ipsos etiam coelites, derelictis curis solennibus, quibus quondam solebant invisere res nostras, terrarum ab regionibus exterminatos.' Id quod etiam Tertulianus, Apologetici sui (edit. Franekerae, opera Jacobi Pamelii Brugensis, An. 1597.) cap. 40. fol. 69. singulari cum emphasi confirmat. Verba ejus haec sunt: 'At è contrario illis nomen factionis accommodandum est, qui in odium bonorum et proborum conspirant, qui adversum sanguinem innocentium conclamant, praetexentes sanè ad odii defensionem illam quoque vanitatem, quod existiment, omnis publicae cladis, omnis popularia incommodi, Christianos esse causam. Si Tiberia ascendit in moenis, si Nilus non ascendit in arva, si coelum stetit, si terra movit, si fames, si lues, statim Christianos ad Leonem: tantos ad unum?' Proinde, ut spero, nemo mirabitur, tam serò Christianos poëtatos fuisse, quippe quibus ne hiscere quidem, ne dicam cantare, integrum erat, ita ut haud inconcinnè verba illa Regii Psaltis sua facere potuerint: 'In salicibus suspendimus organa nostra, quomodo enim cantabimus canticum Domini in terra aliena?' Quae etiam causa est, ob quam ex tribus prioribus Seculis, nullos quasi, aut certè perpaucos, inveniamus Poëtas Christianos.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="2">
+<p>
+SEC. 3. –– II. Et inter Graecos quidem Poëtas, qui sacras materias Christianos pertractarunt, primum invenio Triphyllium, Episcopum Cyprium, seculo post C. N. tertio clarum, Spiridionis Tremithuntis, Cypriorum Episcopi, discipulum, qui teste Suida, Spiridionis praeceptoris sui Vitam, atque Miracula Iambicis versibus conscriptuam dedit.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="3">
+<p>
+SEC. 4. –– III. Seculo post natum Christum IV. liberiùs sese exserebant libera et pia Christianorum Poëtarum ingenia, protogentibus Christianam fidem potentissimis Imperatorum manibus. Inter quos Christianos Poëtas non ultimus est, Apollinaris vel Apollinarius, Apollinaris Laodiceni presbyteri filius, idemque Laodiceae in Syria Lector, postea Episcopus. qui sub Constantini liberis claruit, usque ad Theodosii M. tempora, sub quo etiam mortuus est. Teste Hieronymo, in lib. de Scriptor. Eccles. innumerabilia fermè scripsit, ex quibus unica hodiè exstat Psalmorum Metaphrasis, carmine Heroico descripta, Vossii judicio, sanè luculenta, qui et aliquot elogia de eo quorundam scriptorum, cap. IX. de Poëtis Graecis, collegit; quae transcribere animus non est. Adi etiam, si lubet, Vossii lib. II. de Historicis Graecis cap. 18. 'Is Apollinaris impià haeresi infectus dicitur, et Anno 375. in Synodo Romana, sub Damaso, fulmina tulisse. Christus Patiens, Tragoedia, Gregorio Nazianzeno aliàs adscripta, secundum nonnullos, hunc Apollinarem auctorem agnoscit. Interpretatio ista Psalmorum, Graeco-Latina, prodiit ap. Commelin. f. 8. 1596. Graecè quoque, f. 8. 1552. typis Regiis. Cum Interpretatione Versibus Heroicis, et cum Indice locupletissimo, Paris. 1580.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="4">
+<p>
+IV. Iisdem temporibus vixit Gregorius, Sasimae priùs, deinde Nazianzi, in patriâ, Episcopus: Gregorii, Nazianzensis Ecclesiae Presbyteri, et Nonnae, piae sanctaeque matronae filius. D. Hieronymi praeceptor, et Basilii, per 30. secundum Ruffinum verò, Lib. II. Histor. cap. IX. per XIII. annos, in variis Academiis contubernalis: <foreign xml:lang="grc">κατ᾽ ἐξοχὴν</foreign> Theologi nomen meruit, propter eximiam Divinarum literarum scientiam. Praeter alia divini ingenii monumenta, multa quoque Hexametris atque aliis Versibus Poëmata reliquit, qui versus, sec. Lil. Gyraldum, numerum triginta millium attingunt. Poëmata potiora sunt: Tragoedia, Christus Patiens, quae tamen à nonnullis Apollinari tribuitur; De Rebus suis, Libri Duo; De Variis Argumentis V. et N.T. Novem; De Virginitate et de Praeceptis à Virgine servandis Carmen; Spiritualia Epigrammata Tredecim; Sententiarum Spiritualium, carmine scriptarum, Libri Tres <foreign xml:lang="grc">περὶ καθ᾽ ἑαυτὸν ἔπη</foreign>, quibus ad Piam in Christo Vitam hortatur, etc. Praeter editiones, à B. Gerhardo et Clariss. Oleario, in Abaco, adductas, invenio quoque alias. Carmina ejus edita sunt Graec. Lat. Venet. 1504. f. 4. Ejusdem Opuscula, à Cyro Dadybrensi illustrata, anno 1575. prodierunt f. 8. Ex quibus τὰ περὶ καθ᾽ ἑαυτὸν ἔπη, tum item Gnomae <foreign xml:lang="grc">δίστιχοι</foreign>, et Iambica Carmina varia; praetereà Tetrasticha, cum Nicetae Davidis, Philosophi, Paraphrasi, et denique <foreign xml:lang="grc">Ἀπόῤῥητα</foreign>, seu Arcana cum Paraphrasi, habentur MSta in illustri Bibliotheca Augustanâ. Ejus Arcana, sive de Principiis, cum Paraphrasi Graeca, aliaque, 1601. ap. Plantin. f. 8. et antè, ab Hoeschelio, Lugd. 1591. Christus Patiens, Paris. 1545. f. 8. Odae ejus Graecè et Latine, Turn. 1605. Odae aliquot, cum Synesii, Cyranaei Episcopi Ptolemaidis, Hymnis, vario Lyricorum versuum genere conscriptis, ex Versione Fr. Porti, Cretensis, f. 24. ap. Steph. Exstant quoque Nicetae Philosophi in Gregorii Nazianzeni Poëmata Enarrationes, Venet. 1563.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="5">
+<p>
+SEC. 5. ––V. Seculo post N.C. quino, floruit Eudocia, vel Eudoxia, Theodosii Junioris Imp. uxor, Leontii, Sophistae Atheniensis, filia. Haec, secundum Socratem, plurima scripsit poëmata versu heroico. Opera ejus enarrat Vossius ex Photio. Condidit enim de Victoria, quam Maritus ejus de rege Persarum reportaverat, poëma Heroicum; similique artificio Μετάφρασιν metricam Zachariae et Danielis Prophetarum: Eadem, Libros III. carmine fecit in Laudem B. Martyris Cypriani. Sixtus Senensis, et cum eo multi alii, huic Eudociae <foreign xml:lang="grc">Ὁμηρόκεντρα</foreign>, sive Centones Homericos tribuit, in quibus agitur de Christo Domino, de fluviis Paradisi, de Adamo et Eva, de mandati divini violatione, de Patris aeterni consilio, de partu Salvatoris, de stella Magorum, de Fuga Christi in Aegyptum, de Sacro Baptismatis lavacro, de SS. Trinitate, etc.Vossius tamen et Borrichius hos Centones Pelagio Patricio Presbytero adscribunt non sine rationibus. Gyraldus dubius haeret; refert tamen, nonnullos fuisse, qui Probam Falconiam (de qua inferius,) autorem agnoscant. Fuit haec Eudocia, antequam Theodosio nuberet, à Christi pietate aliena, nomine proprio Athenais vocitata: sed cùm Theodosio placuisset, eam priùs uxorem ducere noluit, quàm et moribus Christianis esset imbuta, et lustralibus aquis abluta: id quod ei utrumque tum Atticus Magnus, Constantinopoleos Antistes, praestitit, proque Athenai, Eudociam, nominari voluit Plura de ea vid. Dial. V. de Poëtarum Historia ap. Gyraldum, et alios passim. Centones istos ediderunt Aldus Manutius, Anno 1504. et H. Stephanus, 1578. sed tanquam incerti scriptoris. Habentur etiam Tom VIII. Bibl. Patr. Paris. edit. 2. f. 615.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="6">
+<p>
+VI. Sub eodem Imperatore Theodosio, floruit Synesius, patriâ Cyrenaeus, Ptolemaidos Episcopus; qui Alexandriae Philosophicis studiis operam navans, Hypatiâ, Theonis Mathematici filiâ, magistrâ usus est. Praeter multa alia scripta, reliquiut etiam Hymnos decem, quorum Trina Translatio exstat, Guilelmi Canteri, Francisci Porti, et Dionysii Petavii.Hymnos istos Graecè solum evulgavit Aldus Manutius, Venetiis; Graecè verò et Latinè, unà cum Nazianzeni Odis, prodiere Turn. 1605. Oratio ejus ad Paeonium, item Conciones et Constitutiones, Hymnique, Graecè et Latinè, per Guil. Canterum, Basil. 1567. Hymni verò cum Fr. Porti Cretensis Interpretatione, ap. Stephan. f. 24.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="7">
+<p>
+VII. Referendus hûc quoque Basilius Seleuciensis, Seleuciae in Isauria Episcopus, qui Anno 418. Synodo Constantin. adversus Eutychen, et Anno 451. Concilio Generali Chalcedon. interfuit, Chrysostomi amicus et contubernalis. Reliquit is, praeter multa alia scripta, Vitam S. Theclae, carmine descriptam; quod carmen habetur inter Opera ejus Graecè, cum Notis Claudii Dausquei, An. 1596. ap. Commelin. edita; item, cum Georgii Neocaesar. Episcopi et Macarii Operibus, Paris 1621.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="8">
+<p>
+VIII. Nonnus Panopolitanus, Aegyptius; quem Carolus Paschalius, Lib. I. de Coronis, cap. 16. ante Ovidii tempora collocat, magno sanè errore; seculo hoc V. vixit, et quidem Theodosii Junioris temporibus. Sixtus Senensis hunc Nonnum inter Graecos Christianos Poëtas principem numerat. Reliquit is Metaphrasin metricam in D. Johannis Evangelium. De qua nonnemo ita judicat: 'Laudandus pii auctoris conatus, etiamsi non semper respondeat eventus, nonnunquam enim obscuritate nimia fatigat lectorem.' Scripsit etiam Dionysiaca, quorum tamen alium Nonnum, qui item Gigantomachiam scripserit, auctorem agnoscit Lil. Gregor. Gyraldus, Dialog. V. de Poëtis. Nonni hujus <foreign xml:lang="grc">Μεταβολὴν</foreign> sive Paraphrasin Johanneam, varii interpretes ediderunt. Erhardi Hedeneccii Versio cum Graeco textu, prodiit Basil. 1571. Idem Nonnus prodiit cum Versione et Notis Francisci Nausii ap. Plantin. 1589. f. 8. Cum Notis Sylburg. 1596. f. 8. Lat. et Graec. cum Homericis et Virgilianis Centonibus, ex officina H. Stephani 1578. f. 12. Luculenta etiam editione eundem vulgavit Dan. Heinsius, Anno 1627. f. 8. In haec quoque tempora à nonnullis rejicitur Theodotus, sacer Poëta, cujus exstat carmen Heroicum, De Sichemitis et Emmore caeso.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="9">
+<p>
+IX. Gregorii Nazianzeni temporibus claruit etiam Amphilochius, Iconii in Lycaonia Episcopus, Basilio et Gregorio Nazianzeno percharus. De quibus tribus, Hieronymus in Epistola ad Magnum: 'Non facile.' inquit, 'judicari posse, quid in illis primùm admirari debeas, eruditionem seculi, an scientiam scripturarum.' Hic Amphilochius, inter alia, Carmen Iambicum scripsit ad Seleucum, quod Carmen prodiit Altdorfii, Anno 1644. f. 8. curante et recensente Nicolao Rittershusio. Titulus libri est: Amphilochii, Episcopi Iconii, De recta Studiorum ac Vitae Ratione, Epistola ad Seleucum, Versibus Iambici cccxxxiii. quasi quarto post N.C. Seculo scripta: Cunradi Rittershusii, J.C. Notis illustrata. Tertiùm edita. Curante et recensente Nicolao Rittershusio. Graeca Inscriptio est, <foreign xml:lang="grc">Ἀμφιλοχίου Ἐπισκόπου Ἰκονίου, Ἐπιστολὴ πρὸς Σέλευκον</foreign>. Numerum Versuum, qui Epistolam complet, innuit Auctor, in Fine Epistolae, his verbis:
+
+<foreign xml:lang="grc">
+Ἤν ἐθέλῃσθα, Σελέυκε, μαθεῖν τὸν ἀριθμὸν ἰάμβων,
+Τρεῖς ἑκατοντάδας, ἴσθι, τόσας δεκάδας, μονάδας τρεῖς·
+Αἰεὶ γάρ σε τέκος τριάδος φίλον εὔχομαι εἶναι.
+</foreign>
+
+Exstant etiam isti Iambi in Bibl. PP. edit. 2. Paris. Tom. viii. f. 665. Denique notandum, Jacobum Billium hanc Epistolam Gregorio Nazianzeno adscribere: quae tamen sententia Cunrado Rittershusio et D. Zehnero displicet.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="10">
+<p>
+X. Petrus Eddissendis, Leonis ac Zenonis temporibus claruit. De eo ita Gyraldus, Dial. 5.: Patrus Eddissenus sacerdos, Psalmos carmine, in morem Ephrem Diaconi, composuisse dicitur. Declamator insuper divinae legis fuit, multaque ejus generis scripta reliquit, ut est à Gennadio proditum, et ab his, qui Divorum Christianorum vitas literarum monumentis mandaverunt. Gennadii verò verba, in Viris Illustribus, haec sunt: 'Petrus Eddissenae Ecclesiae Presbyter, declamator insignis, scripsit Variarum Caussarum Tractatus, et in morem S. Ephrem Diaconi, Pslamos metro composuit.' Prout verba haec allegat Vossius, de Poët. Graec. cap. 9.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="11">
+<p>
+XI. Pelagius Patricius, Presbyter, Zenonis Imperatoris temporibus vixit, ut ex Zonarae Annal. Tom. 3. in Vita Basilii Imperat. ac Cedreno constat. Dicitur is <foreign xml:lang="grc">Ὁμηρόκεντρα</foreign> sive Homericos Centones scripsisse, quos vulgò Eudociae, Theodosii Junioris uxori, adscribunt: cujus sententiae cum multis aliis patronum se sistit Celeberr. Vossius, cap. 9. de. Poët. Graec. p. 80. Vide quae § 5. de Eudocia diximus.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="12">
+<p>
+XII. Cyrus Theodorus Prodromus, Cotyaeus Phrygiae Episcopus, quem alii Cyrum Panopolitam appellant, circa An. 444. Theodosio Juniore imperante, floruit: charus Theodosii conjugi Eudociae, Sacrorum Bibliorum <foreign xml:lang="grc">ἁγιόγραφα</foreign>, singulis capitibus adaptatis tetrastichis, explicavit. Epigrammata ista Graeca MSta habentur in Bibliotheca Augustana. Citantur autem à Claris. Reisero, in Indice Bibliothecae illius; Cyri, cujusdam Theodori, Iambi Prodromi, in Libros Biblicos, aliique Versus. Ut adeò probabile sit, nomen Prodromi, non Auctoris esse, ut vulgo putatur, sed ad Iambos hoc loco pertinere et Iambos Prodromos dici, quod singulis Capitibus Librorum praemittendi sint, Argumentum eorum videlicet breviter explicantes. Excusi sunt Basileae 1536. ap. Bebelium; ex Joh. verò Ribitii Translatione, Genevae, ap. Crispinum. Nonnulla quoque ejusdem Poëmata, Graecè et Latinè, cum Argumentia et Notis Hierem. Erhardi, Lipsiae, An. 1598. prodierunt. Theodorus Antiochenus Presbyter, qui secundum Olearium, in Abaco, XV. Libros de Incarnatione, Versuum quindecim millibus conscripsit, an ad haec tempora referendus sit, non constat.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="13">
+<p>
+SEC. 7. ––XIII. Georgius Pisides, magnae (ut Suidas ait,) Ecclesiae Diaconus et <foreign xml:lang="grc">Χαρτοφύλαξ</foreign>, sub Heraclio Imperatore, circa Annum 640. claruit. Praeter Arabica, et Encomium Anastasii, quae solutâ oratione scripsit, reliquit etiam tria Iamborum millia, de Mundi Opificio, sive, de Operibus VI. Dierum; ex quibus hodie 1088. tantùm supersunt, exceptis paucis reliquorum fragmentis, teste Vossio, de P.G. c. 9. ubi etiam ex Codice MSto Bibliothecae Augustanae inscriptionem Prologi nobis sistit, qui sic se habet: <foreign xml:lang="grc">Γεωργίου, Διακόνου τῆς ἁγιᾶς Ἐκκλησίας τοῦ Πισίδους προοίμιον τῆς ἑξαημέρου διὰ ἰαμβῶν στίχων</foreign>. De istis nonnemo judicat: 'Non incultos esse, si squalorem temporum illorum respiciamus.' Prodiit hoc opus Graecè et Lat. ap. Morellum, f. 4. Exstant praeterea ejusdem Iambi de Vanitate Vitae, edente Frid. Morello. Habentur etiam hi Iambi, unà cum Hexahemero, Tom. VII. Bibl. Magn. Colon. fol. 256. et Tom. VIII. Bibl. PP. Paris. edit. 2. fol. 354.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="14">
+<p>
+XIV. Hûc quoque Lil. Gyraldus refert Theanum quendam, Poëtam Christianum, cujus grande volumen legi dicit Hexametro versu compositum, De iis quae ad Christianam religionem maximè pertinent. De quo tamen apud alios nihil reperio. Certiùs fortè Eulalius hic recensendus est, qui circa annum 670. floruit, Cynopolit. Episcopus, scripsitque Expositionem proso carmine, ad Canticum Canticorum.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="15">
+<p>
+XV. Commemorandus hic itidem venit Johannes Damascenus, Chrysoroas, propter dona signularia appellatus, de quo Suidas dicit: 'Fuisse eum virum praestantissimum, et eorum, qui in disciplinis per ea tempora illustres fuerunt, nulli secundum. Vixit is Leonis Isauri et Constantini Copronymi temporibus. Praeter multa alia monumenta, quorum Catalogum B. Gerhardus in Patrologia p. 498. nobis exhibet, scripsisse fertur ab Eustathio, in Commentario ad <foreign xml:lang="grc">Περιήγησιν</foreign> Dionysii Afri, Drama Susannae, sed quod deperiit. Gyraldus quoque refert, scripsisse eum Regulas Canticorum, cùm iambis, tùm prosa etiam oratione: adhaec Borrichius, eum de Nativitate Christi, Epiphania, et Pentecoste, iambis commentatum fuisse dicit.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="16">
+<p>
+XVI. Hujus Johannis, in D. Sabae Monasterio, sodalis fuit Cosmas Hierosolymitanus, qui à Graecis <foreign xml:lang="grc">Ἁγιοπολίτης</foreign> cognominatus est. Reliquit praeter Canones Musicos, Hymnos quoque, quorum tredecim Latinè exstant, in Bibl. PP. Tom. 8. edit. 2. f. 697. et Bibl. Magn. Colon. Tom. 7. Plura de eo invenies ap. Gyraldum, Dial. v.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="17">
+<p>
+SEC. 8. ––XVII. Inter incertae aetatis Poëtas refert Vossius, Marcum, Idruntis Episcopum, qui Hymnum in magno Sabbato composuit. Celeberrimus tamen Olearius, in Abaco, eum ex Coccio, ad Secul. VIII. et quidem ad Annum 750. refert. In Graeco, ille Hymnus est <foreign xml:lang="grc">ἀκροστιχίς</foreign>. Latinè verò habetur Tom. VIII. Bibl. PP. Paris edit. 2. f. 717.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="18">
+<p>
+SEC. 9. ¬¬––XVIII. Seculo IX. inclinante, usque ad Annum 950. vixit Simeon Metaphrastes, vir nobilis et eruditis, quem Gyraldus et Vossius silentio praetereunt. Scripsit is de Salutis nostrae Mysterio, vorsa Oratione, et quidem Iambis, quibus animum ad sacram Synaxin praeparat. Editus est liber Graecè et Lat. à Morello f. 4.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="19">
+<p>
+SEC. 11. ––XIX. Michaël Psellus, qui à nonnullis ad Constantini Monomachi et Michaëlis Stratiotae tempora collocatur, vir in omni liberalium artium scientia instructissimus fuit, quod innumerabiles fermè illius libri testantur, quorum Catalogum Leo Allatius, Dissertatione de Psellis, texuit. Inter illa, compluria scripsit Carmine Iambico de Vitiis et Virtutibus, Carmina in Canticum Canticorum, et multa alia. Adi, si placet, de eo Vossium, Cap. ix. de Poët. Graec. Et hi sunt, quos ex Poëtis Christianis Graecis potiores ad Seculum usque Duodecimum invenire potui. Siluit jam apud plerosque Graeca Musa, et sepulta quasi jacuit, usque dum literae renasci coeperant; quod factum est, seculo post Christ. Nat. XV. et XVI. Quamobrem neminem invenire potui, qui à Sec. XI. usque ad Sec. XV. Graecis Carminibus nomen sibi pepererit; quae etiam caussa est, ob quam hic calamum figo, et, reliquos in commodius tempus differens, ad Latinos me confero. Sit igitur
+</p>
+</div>
+</div>
+
+<div type="textpart" subtype="section" n="II">
+	<p>
+Sectio 2. –– De Poëtis Christianis Sacris iisque Latinis.
+
+<div type="textpart" subtype="chapter" n="1">
+<p>
+1. Quamobrem Christiani Poëtae Graeci tam serò carmina sua in lucem dederint, superiùs jam monuimus: eadem quoque ratio est, quod apud Latinos Christiana Musa tamdiu siluerit. Sit ergò inter Latinos Christianos Poëtas primus, Q. Septimius Florens Tertullianus, (Sec. 3.) Afer, et quidem Carthaginiensis, patre centurione Proconsulari prognatus, Carthaginiensisque Ecclesiae Presbyter. Hic praeter multa alia scripta, quorum Catalogum B. Gerhardus pag. 110. nobis exhibet, reliquit etiam Carmine, Libros v. adversus Marcionem; sed quos non absolvit, sibique ereptos queritur, et mendosissimè descriptos. De his libris ita Vossius, cap. IV. de Poët. Latin. 'Si ex iis, quae nunc habemus, metiendus sit Tertullianus, non mereatur in poëtis locum. Sanè, quoties in metrum peccet, liquet vel ex paucis illis quae in secundo, de Arte Grammatica, cap. XXIX. monuimus.' etc. Caeterùm ejusdem auctoris Tertulliani Carmen esse dici de Sodomis, quod Cyrpiano aliàs tribuitur. Carmen item de Jona ac Ninive. Alii his addunt Carmina de Mortuis in Fine Mundi suscitandis, et de Paradiso. Praeter editiones, quas Nobilissimus Borrichius notat, est editio Tertulliani Operum Poëticorum omnium, et Victorinorum duorum Scripta Sacra, cum Notis Rivini et aliorum, Lips. 1651. f. 8. Eucharisticum Tertulliani Carmen de Jona et Ninive, cum Notis Jureti, Barthii, et Gronovii, ex edit. Chr. Daumii, Lips. 1681.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="2">
+<p>
+II. Eodem quoque seculoo vixit Caecilius Cyprianus, genere illustris, patriâ Carthaginiensis, Presbyter, aut secundum alios, Episcopus Ecclesiae Carthaginiensis, et An. 258. sub Imperatoribus Valeriano et Gallieno, (teste Hieronymo,) martyrio coronatus. Tribuuntur ei à nonnullis Carmen Genesis, Carmen Sodoma, Carmen item ad Apostatam Senatorem, et Hymnus de Paschate. Bellarminus haec carmina in Catalogum Operum spuriorum vel supposititiorum refert, dicitque, 'nihil certi se habere, cùm non adsint de illis veterum testimonia, quod sint Cypriani, nec sint argumenta quibus probetur non esse Cypriani.' Addit tamen: 'opera sunt gravia et docta, et S. Cypriano digna.' Libr. de Scriptor. Eccles. Secul. III. p. m. 64. edit. Colon. Agripp. 1657. f. 8. De editionibus horum Carminum variis, consule Christ. Daumium, in Syllabo Poëtarum Christianorum, Paulino suo praefixum, Lips. 1686. quem item Syllabum, in sequentibus omnibus consulere et huc conferre poteris, quod hic semel monuisse sufficiat.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="3">
+<p>
+SEC. 4. ––III. C. Aquilinus Vestius Juvencus, Presbyter Hispanus, Sec. IV. sub Constantino M. claruit, genere et ingenio nobilissimus. Scripsit Evangelicam Historiam, Matthaeum secutus, libris IV. versu Hexametro. De illo Barthius, lib. 8. Adversar. c. 1. pag. 361. edit. Francofurt. 1624. fol. judicat, 'esse eum poëtam omnium scriptorum simplicissimum, qui plus in sinu gerit, quàm fronte pollicetur.' Celeberr. Borrichius de eo: 'Juvencus Evangelium Matthaei IV libria metro complexus est, Poëta non humillimi spiritùs: qui, si aliquando sibi excidat in mora syllabarum, ignoscendum erit seculi illius ruditati. Enim verò plures habet hujus culpae socios, imò propemodum omnes poëtas Christianos antiquos. Dictio ejus nativa et simplex, quaeque sic satis constanter exprimit sensum Evangelii, parum tamen eleganter subinde.' Si Hieronymo fides, composuit etiam alia nonnulla, metro Hexametro, ad Sacramentorum ordinem pertinentia; sed quae nunc sunt deperdita. Evangelicae Historiae Poëmata continentur Tom. VIII. Bibl. PP. Paris. edit. 2. f. 435. et in Georg. Fabricii Corpore Poëtar. Latinorum, Basileae 1541. De hac Collectione Fabricii, obiter notandum judicium Christiani Daumii, Epist. XIV. ad Reines. 'Prorsus,' inquit, 'malè de Antiquitate Christiana, si Poëtas illos spectamus, meritus est, qui meteri omnium praestantissimè potuisset, modò voluisset; eoque nomine vix excusandus venit,' etc. Plurimarum quoque ejus editionem meminit idem Christian. Daumius, in Syllabo Poëtarum Christianorum veterum, editioni suae Paulini praemisso. Praeter autem istas, invenio etiam editionem Juvenci cum Sedulio, Proba Falconia, et aliis, apud Aldum, An. 1582. f. 4. Prodiit etiam Parisiis 1499. f. 4. idem unà cum Sedulio, Basileae 1545. f. 8. Idem cum Sedulio et Aratore, Lugdun. 1588. et 1566. f. 12. solus etiam prodiit Paris. 1545. f. 12.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="4">
+<p>
+IV. Huc à nonnullis refertur Lucilius Caelius, à patria Firmio, Firmianus, ab eloquentia lactea, Lactantius dictus; Arnobii discipulus, paullò tamen antiquior Juvenco; vixit enim, teste Hieronymo, de Illustr. Scriptoribus, jam jam sub Diocletiano, et usque ad principatum Constantini pervenit. Praeter Carmen deperditum, De Itinere ejus ex Africa Nicomediam usque; tribuuntur quoque ipsi Carmen De Passione Domini, item De Resurrectione ac Paschate, quae tamen, secundum Vossium et alios, Venantio Fortunato adscribuntur. B. Gerhardus, in Patrologia, p. m. 189. 'Carmen,' inquit, 'de Passione, spurium est, quia (1.) contradicit genuinis Lactantii scriptis his verbis: Flecte genu lignumque crucis venerabile adora, cùm Lactantius graviter insectetur imagines: (2.) nulla ejus mentio fit in Catalogo operum Lactantii, ap. Hieronymum; licet aliorum mentionem faciat, quae hodiè non exstant.' Carmen verò de Resurrectione Venantio adscribitur, in Codice Vaticano. Adhaec, tribuitur ei Carmen de Phoenice: 'Sed hoc,' inquit Vossius, 'hominis videtur gentilis; cùm de Phoebo loquatur ut vero Numine, ac Phoenice, tanquam ejus sacerdote.' Quod etiam judicium est Bellarmini, de Scriptor. Eccles. sec. 3. p. 69. edition. Colon. Agrippin. Ann. 1657. f. 8. Confer quoque Roberti Coci Censuram quorundam Scriptorum, qui sub nominibus Sanctorum et veterum Auctorum à Pontificiis citari solent, p. m. 179. et seqq. Multas horum carminum editiones magno studio collegit. Cl. Daumius, in Syllabo Poëtar. Christian. editioni suae Paulini praefixo, quem consule.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="5">
+<p>
+V. Hilarius Pictaviensis, homo gentilis, provectâ tamen aetate Christo addictus, et Anno 353. patriae Archi-episcopus praefectus, primus Hymnorum gloriâ claruisse dicitur ab Isidoro, lib. 1. de Offic. Ecclesiast. (edit. Colon. Agrippin. Anno 1617. fol. 392.) Tres autem tantùm hodiè ejus supersunt Hymni. Ille verò, qui inscriptus Asprae vel Aprae, tanto est viro indignus; quod, praeter Vossium, Erasmus quoque agnoscit. Gyraldus eum Mysteriorum Librum, aliaque contra Arianos Carmina reliquisse statuit, Dial. V. Histor. Poët. p. 626. Sunt etiam, qui huic Hilario tribuant Carmen in Genesin; sed cùm hoc Carmen ad Leonem Papam perscriptum sit, rectiùs Hilario Arelatensi tribuitur; de quo inferiùs.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="6">
+<p>
+VI. Caius, aut, secundum alios, Fabius Marius Victorinus, natione Afer, qui sub Constantio Romae Rhetoricam docuit, Divique Hieronymi in Rhetoricis praeceptor, quadragesimo post Concilium Nicenum, Anno sc. 350. claruit. In extrema demum senectute, teste Augustino, lib. 8. Confess. cap. 2. ad fidem Christianam conversus est. Cultum Epos scripsit, de VII. fratribus Machataeis, ab Antiocho cum Matre interemtis. Leguntur et Hymni quidam, ejus nomine editi, de Sanctissima Trinitate. Joh. à Bosco. et Casp. Barthius, poëma de Fratribus Machabaeis, Hilario Arelatensi adscribunt; quod tamen ab Hieronymo, de Scriptor. Illustr. nostro Victorino adjudicatur. Exstat hoc poëma de Fratribus Machabaeis, Tom. VIII. Bibl. PP. Paris. f. 427. et ap. Georg. Fabricium, Poët. Sacr. f. 443. Idem Carmen, cum aliis Opusculis Victorini hujus et alterius Pictaviensis, Lipsiae prodiit, Anno 1652. opera D. Andr. Rivini.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="7">
+<p>
+VII. Dubius haereo, an in hanc quoque classem redigendus sit Decimus Magnus Ausonius. Burdigalensis; qui sub Valentiniano, Gratiano, et Theodosio, Imperatoribus, claruit, et Gratiani Imperatoris Praeceptor fuit, ab eodem tandem ad Consularem dignitatem evectus. Carmina namque Christum celebrantia, ut, Precatio matutina ad Deum, et Carmen de Resurrectione, quae à nonnullis ipsi tribuuntur, alium longè auctorem agnoscere videntur; religione enim eum Ethnicum fuisse, facili negocio colligere est, ex Paulino, amico ejus, sed Christiano, qui identidem eum idcirco objurgat. B. Gerhardus quidem in Patrologia, p. m. 403. Christianum eum fuisse arbitratur, inductus auctoritate suprà nominatorum Carminum; Vossius verò et alii Carmina haec supposititia esse rectiùs arbitrantur. Prodiit Ausonius, cum integris Scaligeri, M. Accursii, Freheri, iterumque Scaligeri atque Aliorum selectis Notis, ex Recensione Tollii, Amstelod. 1671. f. 8. item cum Joseph. Scaligeri, Vineti aliorum Notis, Burdigalae, 1604. f. 4. et ap. Gryph. 1595. f. 12.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="8">
+<p>
+VIII. Damasus, natione Hispanus, temporibus Gratiani, Valentiniani Junioris, et Theodosii M. Romanae Urbis Episcopus claruit, qui (testibus Hieronymo et Suida) elegans habuit ingenium in componendis versibus, multaque volumina Heroico Carmine composuit. Divorum Petri et Pauli Mensam ac Altare, quod ille Platoniam vocabat, versibus ornavit: item de Paulo Apostolo, de Agnete Martyre, de Andrea Apostolo, de Agatha Martyre, de Nomine Jesu, de Christo, de Ascensione Christi, de Cognomentis Salvatoris, elegantissima Carmina composuit: quae omnia habentur in Corpore vett. Poëtarum Latinorum, impresso Lugduni, in Officina Hugonis à Portae Anno 1603. p. 671. seqq. Circumferuntur ejus quoque nomine pleraque in Psalterium Carmina, item in Div. Paulum Apostolum alia quaepiam, sed quae multis parum probantur. Carmina ejus sacra, Hymnos, Elogia et Epigrammata, D. Andr. Rivinus, Lipsiae Anno 1652. emculavit, et Notis additis eddidit. Opera quoque Damasi, ejusque Vitam, ex MSS. Codicibus, Romae, cum Notis Martii Milesii Sarrazanii JCti, et ex ejus collectione An. 1639. edidit, F. Ubaldinus f. 4. recusa verò Parisiis, 1672. ap. Ludovic. Billaine. f. 8. Elogia quoque Sanctorum poëticè scripta, separatim habentur, Tom. VIII. Bibl. PP. Paris. edit. 2. f. 986. Hunc Damasum, post Theodosii obitum adhuc vixisse, Socrates, in Historia, lib. 6. cap. 1. edition. Mogunt. Anno 1677. fol. 299. et 300. scribit. Suidas verò et Hieronymus illum Octogenarium quidem, sed adhuc vivente Theodosio, decessisse, tradunt.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="9">
+<p>
+IX. Ambrosius, Mediolanensis Episcopus, Gratiani ac Theodosii temporibus vixit. Natus is est Anno 333. ex parente, viro illustri ac praefecto Galliae, cui nomen fuit Symmachus. An. 374. Archi-episcopus Mediolani creatus est. Memoranda inprimis in illo venit incomparabilis auctoritas, in excommunicando Theodosio Imperatore, ob caedem Thessalonicensium. Inter Opera ejus, in V. Tomos distincta, aliquot etiam poëtica occurrunt, ut XXVII. Hymni, qui Tom. V. Operum ejus inveniuntur; item Disticha, scripta in Basilica Ambrosiana, quae ipsius Ambrosii creduntur, habes Tom. VIII. Bibl. PP. edit. 2. Septem quoque meminit B. Augustinus, lib. IX. Confess. ubi et duo cola recitat ex Hymno septimo. Versus ejus Hymnosque (Borrichio teste) exhibet adhuc Mediolani, aedes Sacra Ambrosiana. De laudatissimo illo omnibus Ecclesiis Cantico, 'Te Deum Laudamus,' Chronicon Dacii, Episcopi Mediolanensis, refert: Completo Baptismo Augustini, toto obstupescente populo, repente Canticum illud à Sanctis, Ambrosio et Augustino, ex tempore, alternatim fuisse cantatum. Memoranda etiam, quae de eo scribit Augustinus, libro Confess. quod, 'cùm Ambrosius ab Imperatrice Ariana, perfidià damnatâ, persecutionem pateretur, et intra Ecclesiam cum plebe Catholica insidiis urgeretur, instituerit Hymnos et Psalmos secundum morem Orientalium decantari, ne populus moeroris taedio contabesceret: id quod ad omnes fuit postmodum derivatum.' Praeter Opera Ambrosii integra, saepe edita, Hymnos ejus, inter aliorum Hymnos, habes cum Galfridi Grammatici Expositione, Basil. 1494. f. 4. item Colon. 1506. f. 4. Basil. 1517. fol. Hymnum ejus de Adventu Domini, Joh. Weitzius, cum Commentar. edidit Jenae, 1640. f. 8. Sancto denique fine quievit noster d. 4. April. pridiè Paschatos, Ann. 397. aetat. 64. postquam annis 22. praefuit. Ei in Episcopatu successit Simplicianus.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="10">
+<p>
+X. Aurelius Prudentius Clemens, Vir consularis, Poëtarum Christianorum facilè princeps, Theodosio M. Imperatore claruit in Hispania, circa Annum 390.; natus verò, Anno Christi, 348. F. Philippo et Salea Romae CSS. quod ipse indicat in praefatione <foreign xml:lang="grc">Καθημερινῶν</foreign>:
+
+'Irrepsit subito canities seni,
+Oblitum veteris me Saliae Consulis arguens,
+Sub quo prima dies mihi.'
+
+Opera ejus metrica, quae inter manus habemus, haec sunt: (1.) Psychomachia, in qua agitur, de Pugna Fidei et Idololatriae, Pudicitiae et Libidinis, Patientiae et Irae, Superbiae et Humilitatis, Luxuriae et Sobrietatis, Avaritiae et Largitatis, Concordiae et Discordiae. (2.) Cathemerinon, quem librum aetatis Anno 57. incepit, quod ipse innuit in praefatione:
+
+'Per quinquennia jam decem
+Ni fallor, fuimus, septimus insuper
+Annum cardo rotat, dum fruimur sole volubili.'
+
+Est is Liber Rerum Divinarum, in quo continentur Hymni. (3.) Apotheosis, i. e. de Divinitate, ubi continentur Hymni in Infideles, in Haereticos Sabellianos, in Judaeos, etc. Item de Natura Animae et Resurrectione Carnis. (4.) Hamartigenia, i. e. de Origine Peccatorum contra Marcionem. (5.) Liber Peristephanon, i. e. de Coronis Martyrum, Laurentii, Vincentii, Eulaliae, Petri et Pauli, Agnetis, Cypriani, Cassiani, Fructuosi, Augurii, et aliorum. (6.) Denique, Duo Libri adversus Symmachum. Adscribitur huic nostro etiam à nonnullis Enchiridion V. et N. T. Cujus tamen auctor (secund. Vossium) Amoenus dicitur, in MSS. Inter editiones Prudentii celebriores, habentur M. Joh. Weitzii, quae Hanoviae prodiit, An. 1613. f. 4. et 8. Victoris Giselini, Antverpiae, An. 1564. f. 8. Aelii Antonii Nebrissensis et Joh. Sichardi f. 8. Libri adversus Symmachum, prodierunt cum Commentariis Isa. Graugraei Paris. 1614. f. 8. Integer etiam prodiit ex Recensione et cum Notis D. Heinsii, Ludg. Batav. 1600. f. 12. Elegans etiam est editio Prudentii, quae Basiliae, ex Officina Henrici Petri, A.S. 1562. cum Joh. Sichardi succinctis Scholiis, et in aliquot Hymnos D. Erasmi Roterodami et Jacobi Spicelii Commentariis prodiit, f. 8. Quid de Prudentio ejusque commentatore, Victore Giselino, senserit Philippus Caroli, in Bibliotheca sua Romana, nondum edita, mecum tamen à Viro Excellentissimo Dn. Magno Daniele Omeisio, Ethic. et Eloqu. in illustri hoc Athenaeo Norico Prof. Publ. celeberrimo, Patrono atque Praeceptore meo aeternùm colendo, communicata, dispalescet ex sequentibus: 'Victor Giselinus,' inquit Philippus, 'edidit Prudentium: sed hic, si quisquam alius auctor, bonum beneque doctum explanatorem desiderat; sunt enim infinita in eo ad Christianam antiquitatem spectantia, de quibus ne per somnium quidem cogitavit Giselinus, etiam cùm commentarium se scribere posse crederet: aliis certè subsidiis ad eam rem opus esse, nôrunt eruditi. Planè Commentarius in Prudentium, necesse, sit multorum annorum opus, in quo etiam ingeniosissimus, eruditissimus, et laboriosissimus quisque omnem suam industriam possit insumere bono mortalitatis. Antiquitatis Ecclesiasticae nullibi plura vestigia et diligentior comemoratio,' etc.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="11">
+<p>
+XI. Meropius, (aut sec. alios, Eutropius, vel Neropus,) Pontius Anitius Paulinus, Nolae quondam Episcopus, vir sanctae et Apostolicae vitae, ideoque Sanctitatis opinione notus Ambrosio, Hieronymo, Martino, Sulpitio, et Augustino, cui etiam fuit amicissimus, referente Baronio, Anno 395. n. 35. 36. 37. Consulatum Romae gessit, An. 375. tùm baptizatus Burdigalae, dein Presbyter ordinatus Natali Christi, Anno 393. Hispaniâ verò relictâ, Italiam petiit, atque S. Ambrosio salutato, Nolam venit, ejusque Ecclesiae Episcopus factus: Ausonii (de quo § 7. Sect. 2.) discipulus fuit; quem, ut praeceptorem colebat, sed ut aversum à Christiana religione, subinde increpabat: quemadmodum constat ex Operibus ejus. Poëta insignis fuit, scripsitque sub Theodosio M. et ejus liberis. Habemus ejus Carmina ad Ausonium praeceptorem, uti et Ausonii ad Paulinum. Condidisse etiam, secundum nonnullos, dicitur Carmine, Sex Libros, de Vita S. Martini; quos tamen Libros, Celeberrimus Daumius, Benedictio Paulino Petrocorio, ab hoc nostro Nolano planè diverso, vindicat, in Editione sua Paulini, Lipsiae, 1681. f. 8. excusa. Carmen verò de Natali Celsi, Pueri, item S. Felicis, Nolani, atque alia, quae supersunt, hunc nostrum Nolanum auctorem agnoscunt. Deperiit verò poëma de Regibus, quo Suetonium in compendium redegerat. Vossius in eo notat, 'quod aevi potiùs vitio quàm suo saepius negligat modulum syllabarum,' id quod etiam cum aliis, Borrichius observat. Praeclara verò sunt illa quae de Paulino habet Gronovius, in Lib. Observatorum in Scriptoribus Ecclesiasticis, cap. 10. pag. 98: 'Si,' inquit, 'non meruit Andino cantu celebrari Vicina Vesevo Nola jugo, at venit illi volventibus annis olor suus Paulinus. In hoc hospite pristinum correxit errorem, et malè culti Virgilii notam ingenti cum gloria delevit. Habet igitur seriorem quidem, sed et sanctiorem officii sui testem, quem vivum habuit et sacrorum magistrum et aedis sacrae molitorem. Magna sedis adamatae monumenta: quid, quas inde ad lectissimos viros foeminasque piae facundiae et officii plenas dedit epistolas? quid, quibus illum secessum et natales dominaedii sui Felicis dedicavit, ingentis spiritus carmina? Illud meritum loci est: his ubique terrarum noscitur, legitur, videtur.' Obiit Paulinus noster, sec. Baronium et Th. Reinesium, Epistol. 8. ad Danium, A. C. 431. Gennadius ipsi quoque tribuit librum de Poenitentia, et aliud de Laudibus Martyrum, qui hodiè non exstant. A nonnullis quoque nostro Nolano tribuitur Vita S. Ambrosii, quibus tamen et Historia et Stylus reclamant. Inter Opera Paulini, hujus, fertur etiam Carmen Eucharisticum de Vita sua, sed, judice Baronio, non est ejus. Ille enim auctor scribit res gestas suas usque ad annum vitae 83. At Paulinus non excessit annum 78. Opera Paulini prodierunt, cum Prosperi Aquitanici Poëmatibus, ap. Plantin. 1560. f. 12. item Antwerpiae, cum Notis et Observationibus Fr. Ducaei et Herib. Rosweidi, An. 1622. ap. Plantin.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="12">
+<p>
+XII. Ad Honorii Imperatoris tempora, à laudatiss. Vossio collocatur Licentius Hipponensis, cuius verba, quoniam nihil de eo alibi invenire potui, apponam; 'Honorii,' inquit, 'temporibus viguit Licentius Hipponensis, B. Augustino Hipponensi antistiti perfamiliaris: qui in Academicis ejus meminit ut Poëtae celebris, item exarati ab eo poëmatis, de Amoribus Pyrami et Thisbes. Mentionem etiam faciunt Paulinus ac Posidonius. Praeterea Hymnos et alia reliquit.' Haec Vossius, de Poët. Latin. p. m. 58. Carminis ejus ad Augustinum meminit Daumius, in laudato Syllabo, et Tom. II. Epistolarum Augustini, Epist. XL. insertum, tum etiam à Pithoeo inter Poëmata Veterum editum asserit, Lugd. 1596. f. 8.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="13">
+<p>
+XIII. Proba Faclonia, sive Faltonia, quam Vossius et Borrichius ex Isidoro, Adelphii, Proconsularis viri uxorem, matremque Julianae, S. Demetriadis Aviam, Cl. verò Olearius, in Abaco, Anicii Probi, Praefecti Praetorio, postea Consulis, Matrem autem Probini, Olibrii et Probi similiter COSS. ex Hieronymo faciunt: circa Imperatoris Gratiani, aut, secundum alios, circa Honorii et Theodosii Junioris, tempora vixit. Varios haec scripsit Commentariolos in Novum et Vetus Testamentum, illo Versuum genere, cui nomen Centonum fecere. Alii tamen, hos Centones Pomponio, nobili Poëtae tum temporis viventi, adscribunt, eò quod Isidorus eos, vel iis similes, à Pomponio factos dicat. Sunt etiam qui huic nostrae Falconiae adscribant Centones istos Homericos, quos alii Eudociae, alii Pelagio Patricio, tribuunt. Vid. supra § 5. Sect. 1. ubi egimus de Eudocia, in Poët. Graec. Habes istos Centones Virgilianos, in Bibl. PP. Tom. VIII. edit. 2. Editi quoque sunt cum Sedulio, Juvenco et aliis, ap. Aldum, 1582. f. 4. item cum Ausonii, Laelii Capilupi et Julii Capilupi Centonibus Virgilianis, An. 1579. item Francofurti, 1541. Basiliae 1546. Coloniae Agrippin. Anno 1601.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="14">
+<p>
+SEC. V. – XIV. Dracontius, Presbyter Hispanus, quem <foreign xml:lang="grc">πολυμαθέστατος</foreign> Vossius, inter incertae aetatis Poëtas collocat, sec. Olearium, circa annum 432. sub Theodosio Juniore vixit: quod facilè colligi potest ex ejus Elegia quam Theodosio Juniori scripserat. Reliquit is Hexaëmeron Creationis Mundi, (ab Eugenio Secundo Toletano emendatum et aucum,) Epico carmine, non illo inculto quidem, sed aliquando, propter cognitionum subtilitatem, intricati obscurique sensus. Primi è Bibliotheca S. Vicotirs hunc auctorem edidere Parisienses: postea emendatiùs Georg. Fabricius Chemnicensis. Insertus quoque est hic auctor Tom. VIII. Bibl. PP. edit. 2. Paris. f. 969. item cum Notis et Glossario Joh. Weizii, Francof. 1610. f. 8. Prodiit etiam ap. Morell. 1560. f. 8. Ediderunt eundem Jacobus Sirmondus, cum Eugenio Toletano: ante verò, Michaël Ruizius Hispanus, tum denique Paris. 1619. et Andreas Rivinus, Lipsiae.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="15">
+<p>
+XV. Caelius sive Caecilius Sedulius, Presbyter Scotus, quem B. Gerhardus C. Caelium Sedulium appellat, secundum Trithemium, Vossium, et alios, sub Theodosio Juniore, circa annum 430. aut 440. claruit, et non, ut vult Sigerbertus, cum aliis, sub Liberis Constantini M. Praeter Explanationem Epistolarum Paulinarum, quam prosâ scripsit, reliquit etiam Carmine Hexametro Quatuor Libros Operis Paschalis; sive De Miraculis Salvatoris. Quorum insigni cum laude meminit Gelasius Papa, Canon. 3. Distinct. XV. ubi correcta lectio Pierii Valeriani, haec est: Viri venerabilis, Sedulii Opus Paschale, quod Heroicis descripsit versibus, insigni laude proferimus. Reliquit etiam Hymnos Duos, Ecclesiae adhuc familiares, alterum de Natalibus Christi, qui Alphabeticus est, et incipit, 'A solis usque cardine, etc. alterum de Ejus Epiphania. Dictio Sedulii (ut nonnemo judicat,) est facilis, ingeniosa, numerosa, perspicua, sic satis munda, (si excipias prosodica quaedam delicta,) et imprimis Christianae Pietatis commendatrix.' Prodiit primùm hic auctor Anno 1499. Parisiis f. 4. deinde 1502. ap. Aldum, tùm 1541. Basiliae, cum Notis Ant. Nebriss. postea in Thesauro Poëtarum Sacror. Georg. Fabricii, Basiliae, 1562. et Tom. VIII. Bibl. PP. Paris. Anno 1614. cum Notis Francisci Jureti. Editus quoque est cum Juvenco et aliis, ap. Aldum 1582. f. 4. et Lugduni, 1588. f. 12.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="16">
+<p>
+XVI. Prosper Aquitanicus, Rhetor et Poëta Seculi V. insignis, Papae Leonis I. Secretarius ac Notarius, B. Augustini acerrimus defensor; Rhegiensis, sec. Gerhardum et alios, Episcopus, quod tamen negat Labbeus, p. 247. Diversa tam solutà quàm ligatâ oratione scripsit. Exstat ex Carminibus ejus adhuc Carmen adversus Ingratos, item aliud de Providentiae Dei. In quibus rarius impingit in naevos prosodicos. quàm vulgò veteres Ecclesiastici solent. Plura de hoc Prospero invenies ap. Labbeum, c. 1. et Vossium lib. 1. Histor. Pelagianae, Cap. XVIII. Post labores tandem contra Pelagianos, aliosque Hereticos, exantlatos, Anno 466. vitâ defunctus est. Opera ejus prodiere Coloniae, Anno 1630. et cum Pontio Paulino, apud Plantin. Anno 1560. f. 12.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="17">
+<p>
+XVII. Claudianus Ecdicius Mamertus, aut Mamercus, Claudiani Mamerti, Episcopi Viennensis frater, et ejusdem Ecclesiae Presbyter, claruit Zenone imperante. Id vel inde liquet, quod in opere suo Trium Librorum de Statu Animae, Eucherii, Lugdunensis Episcopi, ut aequalis meminerit: item. quod opus suum memoratum, Sidonio Apollinari emendandum ac divulgandum miserit. Poëtae quoque nomen meruit, Carmine suo contra Vanos Poëtas, quod habetur Tom. IV. Bibl. PP. f. 837. item Carminibus illis de Christo, quae aliàs Cl. Claudiano, Viro consulari, homini gentili, tribuuntur, si nonnullis fides est habenda. Quaedam etiam alia Carmina hujus auctoris recenset Casp. Barthius, in Commentar. suis ad hunc auctorem pag. 438. ubi etiam eidem tribuit Hymnum, Pange Lingua Gloriosi, aliàs Fortunato adscriptum. Sunt qui eidem adjudicant Carmen de Collatione miraculorum utriusque Testamenti, quod tamen alii Sedulio vindicant. Elegans Elogium huic Claudiano tribuit Sidonius Apollinaris, Lib. 4. Epist. 1. quando de eo ita loquitur: Sentit ut Pythagoras, dividit ut Socrates, explicat ut Plato, implicat ut Aristoteles, ut Aeschines blanditur, ut Demosthenes irascitur, vernat ut Hortensius, aestuat ut Cethegus, incitat ut Curio, moratur ut Fabius, simulat ut Crassus, dissimulat ut Caesar, suadet ut Cato, dissuadet ut Appius, persuadet ut Julius. Jam si ad sacrosanctos patres pro comparatione veniatur, instruit ut Hieronymus, destruit ut Lactantius, astruit ut Augustinus, attolitur ut Hilarius, submittitur ut Johannes, ut Basilius corrigit, ut Gregorius consolatur, ut Orosius affluit, ut Ruffinus stringitur, ut Eusebius narrat, ut Eucherius sollicitat, ut Paulinus provocat, ut Ambrosius perseverat.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="18">
+<p>
+XVIII. Claudius Marius Victor, vel Victorinus, Rhetor Massiliensis, Seculo V. sub Zenone Imp. claruit. Carmine Hexametro, in Genesin scripsit libros IV. ad Aetherium Filium; incepit verò à principio libri, et pervenit usque ad Abrahami obitum. Doctum illud carmen est et limatum, si tempora inspicias, sed in acuminibus captandis nimis operosum. Habetur unà cum alio illo, De Perversis Seculi Moribus, ad Salmonem Abbatem perscriptum Tom. VIII. Bibl. PP. edit. 2. Paris. f. 314. Gennadius de Victore nostro judicat, fuisse eum literaturae secularis, quàm sacrarum literarum, peritiorem. Seorsum quoque edita sunt carmina memorata, Lugduni, per Joh. Gagnejum; et correctiùs, Parisiis 1560. Reperies eadem quoque in Georg. Fabricii Poëtis Sacris, f. 307.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="19">
+<p>
+XIX. Alcimus Ecdicius Avitus Viennensis, Hesychii Senatoris, ac postea Viennensis Archiepiscopi filius. Aviti Imperatoris nepos, et Parentis in Episcopatu successor, Zenonis et Anastasii temporibus claruit, annoque 523. diem obiit. 'Poëta (sec. Borrichium) elegantissimus, ut miremur aevo tam rudi (intravit enim quoque sextum seculum,) venam adeò doctam et expeditam.' Reinesius, Epistol. 10. ad Daumium, 'vatem suo seculo magnum' appellat. Supersunt hodiè, versus Hexametro, Libri V. de Mundi Origine, de Peccati Origine, de Sententia Dei, de Diluvio, deque Transitu Maris Rubri. Item ad Fuscinam Sororem Liber, de Consolatoris Castitatis Laude. Editionum hujus Vatis omnium prima, quantum quidem huc usque reperire potui, est ea quae prodiit Argentinae An. 1567. Prodiit etiam Parisiis, ab Ascensio, form. 8. Post, Ann. 1546. Libri illi V. de Mundi Origine, etc. prodiere Basiliae, cum Commentariis Monradi Moltheri. Prodierunt item Lugduni, An. 1536. tum item Ludguni, in Corpore omnium Veterum Poëtarum, ex Officina Hugonis à Porta, Anno 1603. Ediderunt quoque hunc Alcimum, Zehnerus, Argentor. An. 1604. form. 8. Gagnejus item ac Fabricius. De his Editionibus, Christanus Daumius, Epistol. XI. ad Reinesium, ita judicat: 'Gagnejus,' inquit, 'omnium interpolatorum audacissimus, meliùs à tanto Auctore facinorosas suas manus abstinuisset. Sunt etiam tum Fabricii, tum Zehneri Editiones vel Textus, omnino non Alcimi, sed Pseud-Alcimi, sive, mera Gagneii Interpretamenta: et Eruditi tamen pro genuinis laudant? Ipsius Zehneri quoque indiligentiam, in annotandis Variis Lectionibus, non satis mirari possum, qui saepissimè errat; in Argentina Editione ita legi affirmans, quod aliter nunc comperior, etc.' Et Epist. XIV. 'Opus erit,' inquit, 'ut aliquando genuinum Alcimum luci restituamus: quem supposititium, ferè in posterioribus Libris, alium à vero, Gagnejus Bibliothecis intulit. Fabricius, et post eum, Bibliothecae PP. et Corporis Poëtarum Architecti, cum Zehnero, cujus Notis tamen parum fido, propagarunt.' Sed et Reinesius, Epist. XXXV. ad Daumium, his verbi in Gagnejum, mali hujus fontem, ita invehitur: 'Si examinaverimus singula, quae Gagnejus in Alcimo supposuit, ne verbum quidem, ne dum versum commode producere possumus, qui non à genio Aviti, seculique illius longè absit, manifestissimique indiciis, quorum Glossario in Alcimum non exiguam farraginem σὺν θεῷ producturus sum, novitatem monstret, et cum caeterorum Gagnejanorum Carminum conspiret indole.' Hac igitur labe pessimè affecti Alcimi labores cùm eò usque circumferrentur, denique Jacobus Sirmondus, An. 1643. nitidissimam et accuratissimam omnium Editionem nobis dedit; Inscriptionem verò, seu Titulum Operis universi, paululum, nec tamen inconcinnè commutavit: de quo, ut et de reliquo suo instituto, ipse Editor, pag. 61. ita loquitur: 'De his Libris, Avitus ipse ad Apollinarem, Sidonii filium, Epist. XLV. Magnificentiae Vestrae, inquit, litteras vidi, quibus scribebatis, placuisse vobis Libellos, quos de Spiritualis Historiae Gestis etiam lege Poëmatis lusi. Titulus hic, Libris omnibus communis. Nam singuli peculiares suos habent. Pro Spiritali autem Historia, quae latius patet, Mosaicae nomen à nobis substitutum, nec Avitus, opinor, ipse improbaret.' Pergit deinde, de prioribus Editionibus, et suo Instituto; 'Quae Operis hujus primae fuerunt editiones, princeps videlicet omnium, Argentoratensis, Anni M.D. VII. et quae altero ac tertio post anno Coloniae et Parisiis prodiere, cum MStis consentientes, nihil admodum inter se discrepant, nisi quantum variare diversa solent Exemplaria. At longè dissimilis, quae has, Anno M. D. XXXVI. secuta est Lugdunensis, Johannis Gagneii. Innumeris quippe locis, ut praefati sumus, depravata, et quingentis propè versibus, inauditio, ac, nisi Auctor ipse proderet, incredibili facinore interpolata. Quae et in caeteras deinceps Editiones passim recepta, sic eas infecit, ut fucum pati necesse fuerit viros litterators, et pro Aviti versibus, Gagnejanos haud raro legere et usurpare. Hoc igitur Contagio, ut liber sit Avitus inposterum, suae illum origini, genuinoque nitori reddere conati sumus, ope nixi veterum aliquot Exemplarium, cum quibus hos Libros religiosè contulimus, Varias Lectiones nullas aspernati, praeter inutiles, aut quas aliorum codicum consensus refelleret.' Haec Sirmondus, de sua Editione. Alioquin Poëmata Aviti exhibentur quoque Tom. VIII. Bibl. PP. Edit. 2. Paris. Fol. 359 et 411.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="20">
+<p>
+XX. Coaequus Avito fuit Turcius Rufus Asterius, Vir Consularis; qui cum Flavio Praesidio consulatum gessit. Ab Aldo, Cuspiniano, et aliis, Auctor perhibetur Metricae Collationis Vet. et Nov. Testam. quam tamen alii Sedulio, alii verò Claudiano Mamerto tribuunt. Vide supra §. 17. Sect. hujus.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="21">
+<p>
+XXI. Gelasius Papa, natione Afer, ab Anno 492. usque ad 496. Romanam sedem occupavit: ideoque Anastasii Imperatoris temporibus vixit. Nomen meretur inter Poëtas Sacros ideò, quod condiderit Hymnos quosdam Ecclesiasticos, ad imitationem Ambrosii. Concilium hic LXX. Episcoporum Romae habuit, ubi multa constituit pro auctoritate et dignitate Ecclesiae Romanae.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="22">
+<p>
+XXII. Marcus Felix Ennodius Ticinensis, Sancti Epiphanii Ticinensis seu Papiensis in Longobardia Episcopi Diaconus: sub Anastasio, Orientis Imperatore, Theodorico Amalo Ostrogotho, Italiae rege, et Anastasio, Symmacho, ac Hormisda, Papis, claruit. Scripsit praeter alia, Epistolas, Carmina, Hymnos et Epigrammata, quae Andreas Schottus, priùs Tornaci, 1610. postea verò, Jacobus Sirmondus, Parisiis, 1611. cum notis additis edidit. 'Scriptor, ut durus atque difficilis, ita mirum in modum sententiis densus, exactaeque mentis,' vocatur à Barthio, lib. 19. Advers. cap. 6. pag. 944.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="23">
+<p>
+XXIII. Theodulus vel Theodolus, Presbyter in Coelesyria, et postea Episcopus. Sixti Senensi calculo, anno 480. Zenonis et Anastasii temporibus vixit; variaque reliquit Opera, tam solutâ quàm ligatâ oratione perscripta, quorum maxima pars hodiè interiit. Circumferuntur tamen adhuc Carmina ejus De Miraculis Vet. Test. quibus comparat miracula V. T. cum antiquorum poëtarum commentis. Evulgatum est hoc opus Coloniae, Anno Christi 1495.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="24">
+<p>
+XXIV. Theodolo aequalis fuit Godelbertus, qui carmine Heroico Historiam à Mundo Condito, usque ad Salvatoris Natalitia prosecutus est. Reperitur id Carmen, in Bibl. PP. Huic addendus Orentius, Tarraconensis Episcopus, qui Anastasii Imperatoris Anno 27. Tarraconensi Synodo interfuit, h. e. Anno Christi 517. De hoc ita Sigebertus, Viror. illustr. cap. XXIV.: Orentius, Commonitorium Fidelibus scripsit metro Heroico, ut mulceat legentem suavi breviloquio.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="25">
+<p>
+XXV. Rusticus Helpidius, vel Helfridus, vir nobili prosapiâ oriundus, Exquaestor et Medicus Theoderici Gothorum Regis, sub finem V. et initium VI. Seculi claruit. Scripsit Ternarium Poëticum, sive Tristicha, ad nonnullas V. et N. T. Historias, Heroico Carmine; item, Carmen de Beneficiis Jesu Christi Salvatoris nostri: quae habentur Tom. VIII. Bibl. PP. Paris. edit. 2. f. 593. et 596. item in Poëtis Sacris, Georg. Fabricii f. 754. Periit tamen carmen ejus De Consolatione Doloris, cujus operis ipse mentionem facit, his versibus:
+
+'Hinc etiam nostro nugata est Schema dolori,
+Garrula mendosis fingens Satyromata Musis,
+Falleret et trepidos cantatrix pagina questus.'
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="26">
+<p>
+XXVI. Hilarius Arelatensis, Abbas et Monachus Coenobii Lirinensis, dein Presbyter, et Arelatensis in Gallia Narbon. Archi-Episcopus. S. Galli successor; ab anno 430. usque ad ann. 449. floruit. In Episcopatu suo, ob nimiam superbiam reprehensus fertur à Leone Papa, in Epistola ad Episcopos per Viennensem provinciam constitutos. Postae tamen ita resipuit, ut Gemma Sacerdoturm, Plebisque Orbisque Magister, in Epitaphio suo diceretur. Scripsit is ad Leonem Papam, Heroico Carmine, Historiam Geneseos, usque ad Cap. VII. teste B. Gerhardo in Patrolog. p. 441. Vitam hujus Hilarii, referente Oleario, ex membrana quadam perantiqua, Vinc. Barralis, Chronolog. Lirin. p. 103. exhibet, auctore quidem Anonymo scriptam; quam tamen Honorato, Episcopo Massiliensi, tribuendam putat. Multis tandem virtutibus clarus, sancto fine quievit, anno 449. Annectendus huic Seculo. sec. Coccium, venit Amoenus, Poeta Christianus, qui auctor à nonnullis dicitur Enchiridii V. et N. T. Prudentio aliàs adscripti: quam sententiam quoque tuetur Georg. Fabricius, ex nonnullis MSS. codd.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="27">
+<p>
+SEC. 6. ––XXVII. Marcus Benedictinus, Casiensis Monachus, (de quo Petrus Diaconus, de illustr. Casin. cap. 3.) Benedicti ipsius discipulus, temporibus Justini Thracis vixit, Vitamque praeceptoris sui, non invenustè pro illis temporibus, Heroico carmine conscripsit. Idem scripsisse fertur Benedicti Miracula, à Gregorio Papa omissa; quae III. voluminibus excusa prostant Romae, 1590.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="28">
+<p>
+XXVIII. Arator, Patriâ Ligur, Romanae Ecclesiae Subdiaconus, secundum Labbeum, T. 1. diss. p. 103. anno 543. Sec. Vossium verò, anno 560. sub Justiniano Imperatore vixit. Acta Apostolorum, Librus Duobus, Heroico Carmine, è Luca expressit. Quod ipse indicat his versibus:
+
+'Versibus ergo canam, quos Lucas rettulit Actus.'
+
+Dicavit hoc opus Vigilio Papae, et publicè eodem Papa annuente, recitavit. Cùm autem gemina sit praefatio, videtur prius hoc opus dicasse Floriano Abbati. 'In hoc scripto,' inquit nonnemo, 'pietatem meritò veneramur et promptum eloquium; sed à faecibus temporum quiddam in venam ejus inserpsisse, non ambiguum est.' Habentur hi Libri, Tom. VIII. Bibl. PP. Paris. Edit. 2. f. 540. Prostant etiam Basileae, cum Commentariis Aelii Antonii Nebrissensis. Illustratum quoque hoc Poëma est Commentario Arii Barbosae Lusitani. Cum Juvenci et Sedulii item sacra poësi. Impressi sunt hi, libri, Lugd. An. 1566. et 1588. f. 12.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="29">
+<p>
+XXIX. Venantius Honorius (Honoratus) Clementianus Fortunatus, natione Italus, Tarvisinus patriâ, sub Justino Juniore, qui anno 565. Justiniano in Imperio successit, claruit. Hic Ravennae oculis laborans, oleo lampadis, ad S. Martini Turonensis imaginem ardentis, sanatus dicitur: quam Historiam postea Versibus ipse decantavit. Appellabatur vulgò, eò quod reliquos sui aevi eruditione superaret, satis inepto vocabulo, Scholasticissimus. Multa reliquit carmina, ut, de Partu Virginis, Elegiaco metro; de Christi Jesu Beneficiis, variis generibus; de Vita Hominum, itemque de Certaminibus et Miraculis Piorum, Elegiaco. Praeclarum de eo judicium Barthii habetur, Adversariorum libro 46. cap. 3. pag. 2125. Vossio quoque laudatum, ubi eum 'maximi ingenii Vatem appellat, et ad quem, velut ad Callipium quempiam, magistrum et coryphaeum Musicorum modulaminum respexerit omnium sequentium Poëtarum chorus.' Et post aliqua adjungit, p. 2128. 'Mirandum acumen ingenii in hoc auctore fuit: etiam doctrina omnibus ferè coaetaneis excellentior.' In notis item ad Claudian. f. 3. 'Magni ingenii vates, et si in alia tempora incidisset, maximus ipsi dicitur.' Obiit Fortunatus noster, anno 590. Inter Editiones celebriores caput erigit illa, quam Christoph. Brovverus, Soc. Jes. Moguntiae, anno 1603. 1616. f. 4. adornavit. Plura de eo invenies ap. Vossius, lib. 2. de Historicis Latin. cap. 22.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="30">
+<p>
+SEC. 7. ––XXX. Heraclii Imperat. Temporibus, anno sc. 626. et seqq. sedit Honorius I. nominis hujus Papa, natione Campanus. Ejus de S. Apostolis Duodecim Disticha, Ascensionem Salvatoris spectantibus et obstupescentibus, vide Tom. VIII. Bibl. PP. Paris. edit. 2. f. 538. Quae tamen Disticha Celeberr. Vossius, rectiùs Venantio Honorio Clementiano Fortunato adscribi dicit, in Histor. Poët. Latin. cap. V. p. m. 67.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="31">
+<p>
+XXXI. Sub eodem imperatore, extremis scil. ejus temporibus claruit Hildephonsus, aut, sec. alios, Ildefonsus, Islefonsus et Alfonsus, primò Agaliensis Abbas, postea verò Toletanus Episcopus. Varios, praeter alia, scripsit Hymnos, item Epitaphia atque Epigrammata. Sub Constante Imperatore, anno 667. Labbei calculo, fato ereptus est. Vid. de eo Vossius, Lib. II. de Historicis Latinis, cap. 26.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="32">
+<p>
+XXXII. Sub finem hujus seculi, anno videlicet 673. natus est Beda, in pago Britanniae Girwico seu Jaru, quatuor ab Orrea milliaribus, non longè à Tinae fluminis ostiis. Benedictini ordinis Monachus, postea, anno aetatis 30. Presbyter ordinatus est. Doctissimus vir ingeniossimusque Poëta exstitit; quam ob caussam, ut et ob vitae sanctitatem et morum gravitatem, titulum Venerabilis reportavit. Inter opera ejus, Octo Tomis distincta, habentur etiam nonnulla Poëtica. Ut, Liber de Arte Metrica, Carmen de Justini Martyrio, Hymni, et Compositio Horologii, Vita quoque Cutberti Martyris, Hexametro Carmine. Obiit verò, anno 734. Festo Ascensionis Domini, cùm priùs Hymnum, Gloria Patri et Filio et Spiritui Sancto, cecinisset. Sepultus in Girwicensi monasterio, deinde Dunellum transportatus est. Confer Vossium, lib. II. cap. 28. de Histor. Latin.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="33">
+<p>
+SEC. 8. ––XXXIII. Temporibus Justiniani Junioris Leontii et Tiberii Absimari, claruit Aldhelmus, aut, sec. alios Adelmus, Adelhelmus, Altelmus, Anthelmus, aut Aldelinus, natione Anglus, Patre Kenteno, Inae, Occidentalium Saxonum Regis, fratre, natus, Ord. Benedict. in Balduensi, seu Malmesburiensi Monasterio Abbas, postea verò primus Episcopus in oppido Schireburgensi, Occidentalium Saxonum. Latinis, Graecis, Divinis et humanis literis suae aetatis Theologorum cessit nemini. Carmine item et Prosâ facundissimus, Musicae quoque instrumentalis et vocalis, aliarumque artium callentissimus; de quo legitur hic versus:
+
+'Aldelhmus cecinit millenis versibus odas.'
+
+Inter Opera ejus Poëtica, maximam partem aenigmatica, inveniuntur, carmen de Virginitate, (de quo ita Joh. Frid. Gronovius, Lib. Observatorum in Scriptoribus Ecclesiasticis cap. 4. Daventriae, an. 1651. f. 12. edito, pag. 41: 'Aldhelmi, Occidentalium Anglosaxonum Episcopi, libellus habetur de Laudibus Virginitatis, eo genio fatoque conscriptus, ut nec illa facilè quidquam tempestate doctius, nec nostra mendosius legeretur.') Item, de Laude B. Virginis et Aenigmata. Obiit Aldhelmus anno 709. Opera ejus metrica edidit Mart. Delrio, Moguntiae, 1601. f. 12.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="34">
+<p>
+XXXIV. Caroli M. temporibus, claruit Paulus, cognomine Winfridus dictus, Warenfridi filius, Longobardus. Aquilejensis Diaconus, Regisque ultimi Longobardorum, Desiderii, Notarius; anno 774. cum Rege suo à Carolo M. captus, et tandem coenobii Casinensis monachus factus est. Praeter ea, quae Prosâ reliquit, etiam condidit Hymnos Sacros, ex quorum uno creduntur technica illa Musicorum vocabula duxisse initium:
+
+'UT queant laxis
+REsonare fibris
+MIra bonorum
+FAmuli tuorum
+SOLve reatum, etc.'
+
+Hunc Hymnum explicavit Johann. Weitzius, ediditque Jenae, An. 1639.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="35">
+<p>
+XXXV. Sub finem Sec. 8. et initium 9. claruit Theodulphus Aurelianensis, è Gallia Cisalpina oriundus, Abbas priùs Floriacensis, ac deinde Aurelianensis Episcopus, Carolo M. percharus; non tamen pari favore post Caroli obitum illum prosecutus est filius ejus Ludovicus; delatus enim conjurationis Bernardi Regis adversus Patruum particeps, Anno 817. Episcopatu spoliatus, atque in monasterium Andegavense relegatus est. Scripsit in carcere Ecclesiasticum, Elegiacis ad Palmarum diem accommodatis versibus, quorum initium est:
+
+'Gloria, Laus et Honor tibi sit, Rex Christe Redemtor.'
+
+Cùm aliquando observaret Ludovicum transeuntem, ex carceris fenestra hos elegos cecinit; inde versibus mirificè delectatus Imperator, continuò à carcere ipsum liberari, et ad suos redire jussit. Vita functus est, Anno 821. Opuscula ejus edidit Sirmondus, Paris. 1646. Exstant quoque ejus Elegi, Tom. VIII. Bibl. PP. Paris. edit. 2. f. 994. Aliqua etiam edidit D. Rivinus Lipsiae 1653.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="36">
+<p>
+XXXVI. Aequalis Theodulpho fuit Drepanius Florus, natione Gallus, Ecclesiae Lugdunensis Diaconus, qui Psalmos, Hymnos, aliaque metra, Sacra praesertim, reliquit, quae Tom. VIII. Bibl. PP. Paris. edit. 2. f. 727. habentur , itemque seorsum edita, à D. Rivino Lips. 1653.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="37">
+<p>
+SEC. 9. ––XXXVII. Magnentius Rhabanus Maurus, Fuldensis priùs monachus, et per annos 24. illius monasterii Abbas, postea verò, ann. 847. post Otgarium, Archi-Episcopus Moguntinus electus, Alcuini discipulus fuit. 'Poëtarum sui temporis nulli secundus erat, cui nec Germania similem, nec Italia peperit parem,' Trithemii elogiô. Praecipuum inter opera ejus est est Poëma illud Isogrammaticum, quod inscribitur de Laudibus S. Crucis. Opus, ut ibidem laudatur, 'eruditione versu prosaque mirificum.' Seorsum editus est hic liber Phorcae, anno 1503. operâ Jacobi Wimphelingi Sletstatini: recusus verò, An. 1605. Augustae Vindelic. in Typographeo Praetoriano. Moguntiae etiam editus est, cum Notis Christophori Brovveri, 1607. f. 4. Fato functus hic Rhabanus, anno 856. et in S. Albani fano sepultus est, donec ossa ejus Albertus Cardinalis, Marchio Brandeburgicus, Moguntiae atque Magdeburgi Archi-Episcopus, Halam Saxonum, in S. Mauricii Basilicam, superiore seculo devexit, ut ex Sammarthanis refert Olearius.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="38">
+<p>
+XXXVIII. Rhabani Mauri discipulus fuit Hartmannus, (Hartmundus,) monachus S. Galli, Ordin. Benedict. Graecae, Latinae, Hebraicae et Arabicae linguae peritissimus, anno 870. clarus. Carmina et Hymnos reliquit, quae Canisius, Tom. V. part. 2. repraesentavit. Circa eadem tempora vixit Wandelbertus, Prumiensis Diaconus, qui Heroico carmine Martyrologium conscripsit, editum Lovanii à Molano.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="39">
+<p>
+SEC. 10. ––XXXIX. Sub Othone I. et II. Imperatoribus, floruit Rosvveida, (Rosvid, Hrosvith, Rosvita, Rosvida, Rosvidis, et Rosvitis,) erudita monialis, in coenobio Gandersheimensi. Genere nobilis et pietate, nec Latino solùm Carmine pollens, sed etiam Graecè docta. Scripsit Heroico Carmine, Panegyricum de Gestis Ottonis I. Octo quoque Historias Sacras metro panxit, et Sex Comoedias Sacras, item Elegiacum Carmen de Laudibus B. Virginis; quae omnia Conradus Celtes, primus Germanorum Poëta Laureatus, Anno 1501. Noribergae edidit.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="40">
+<p>
+XL. Iisdem temporibus Fulbertus Carnotensis, Ecclesiae Carnotensis Cancellarius et Episcopus, Varia Metra scripsisse fertur, de B. Virgine; de Sacra Cruce; de Timore, Spe et Amore; deque Se ipso. Obiit An. 1029.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="41">
+<p>
+XLI. Sub finem hujus, et sub initium XI. Seculi claruit etiam Petrus Mauricius de Montboisier, sive de Monte Buxerio, cognomento Venerabilis, Abbas Cluniacensis. Is praeter Epistolas, Sermones et Prosas, Hymnos quoque reliquit. Edita sunt ejus Opera Paris. 1522. Ingolstad. 1546. Iterum Paris. cum Notis Andr. Duchesnii 1614. Praeclarum est Petri Pictaviensis elogium, quod Petro nostro Cluniacensi tribuit, hoc modo ad illum scribens: 'Quis unquam Plato subtilius, quis Aristoteles argumentosius, quis Cicero pulcrius aut copiosius quicquam disseruit? Quis Grammaticus instructior, quis Rhetoricus ornatior, quis Dialecticus fortior, quis Arithmeticus numerosior, quis Geometricus regularior, quis Musicus cantileniosior?' etc.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="42">
+<p>
+SEC. 11. ––XLII. Anno Christ. 1050. sub Henrico III. vixit Marbodaeus, natione Gallus, Rhedensis praesul, qui Thaebeorum Vitam, unà cum Cantico Salomonis, carmine complexus est. Eodem hoc seculo Poëtae nomen promeruit Villeramus, Abbas Mersburgensis, Paraphrasi Metricâ in Canticum Canticorum Salomonis, Rhythmis Latinis expressâ, non piâ tantum, sed et satis felici, ac supra seculi sui mores. Pauli Merulae curâ, haec Paraphrasis lucem vidit, Lugdun. Batav. 1598. f. 8. quam etiam observationibus suis ornavit Fr. Junius, Amstaelod. 1655. f. 8.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="43">
+<p>
+XLIII. Henrico IV. imperante, An. 1060. Amatus poëta, Casinensis Monachus claruit, qui Quatuor Libris Carminum, Petri et Pauli Res Gestas complexus est. Circa eadem tempora vixit quoque Anshelmus, Cantuariensis Ecclesiae Episcopus, natione Italus, Lanfranci successor, ejusdem discipulus. An. 1093. ad Archiepiscopatum pervenit, donec tandem Londini, multis in Italia, Gallia atque Britannia perfunctus laboribus, piè obdormivit, An. 1109. Inter Opera ejus, IV. Tomis distincta, et Coloniae An. 1573. excusa, habetur etiam Carmen de Contemptus Mundi, item Hymni et Psalterium B. Mariae Virginis. Aliarum quoque editionem meminit Olearius, in Abaco.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="44">
+<p>
+XLIV. Ab anno 1057. ad 1086. circa tempora Henrici III. et IV. claruit Alphanus, Monachus Casinensis, postea Monasterii S. Benedicti Salerni Abbas, et postremò ejusdem civitatis primus Archi-Episcopus; Poëta insignis: quod testantur ejus Hymni et Poëmata varia, de S. Petro, Benedicto, Christina, Mauro, Matthaeo, Fortunato, Nicolao, etc. quae Opuscula vulgavit Ferdinandus Ughellus.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="45">
+<p>
+XLV. Inclinante hoc seculo, ab An. sc. 1097. usque ad 1136. claruit Hildebertus, è Lavardinensi vico in Cenomanis ortus, Berengarii Turonensis et Hugonis discipulus, Cenomanensis Antistes, et tandem, An. 1125. Turonensis Archi-Episcopus. Praeter alia, Versus de Missa reliquit, qui habentur Tom. III. Bibl. PP. Paris. edit. 2. f. 984. Conscripsit etiam Carmen in Berengarium: Vitam item Mariae Aegyptiae, et S. Agnetis, Elegiaco carmine, quam legere poteris ap. Barthium, lib. 31. Adversar. cap. 13. pag. 1449. Complures idem versus composuisse dicitur de S. Trinitate.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="46">
+<p>
+SEC. 12 –– XLVI. Friderici Barbarossae temporibus, An. 1170. claruit Petrus de Riga, Remensis, qui carmine Leonino, Auroram, sive Vetus et Novum Testamentum, conscripsit. MS. codex in Pergameno antiquissimus, à Moniali quadam Aldenburgensi scriptus, hujus Aurorae, asservatur in Bibliotheca Publ. Jenensi, cujus versus initiales sunt:
+
+'Principio coelum terrasque creasse refertur
+	Qui sine principio, qui sine fine manet.
+Ex nihilo non ex aliquo simul omnia fecit,
+	Non tamen effigiat cuncta creata simul,' etc.
+
+Inclinante hoc quoque seculo, vixit Matthaeus Vindocinensis, qui Elegis versibus Thebaidem, h. e. Paraphrasin Sacrae Historiae Tobiae conscripsit, et Bartholomaeo, Archiepiscopo Turonensi, dedicavit.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="47">
+<p>
+XLVII. Anno 1140. scripsit Bernardus Morlanensis, sive Morlacensis, natione Anglus, Ordinis Benedictini Monachus Cluniacensis: ingenio, pietate et eruditione celebris, teste Pithaeo. Reliquit elegantissimos de Mundi Contemtu Rhythmos Dactylicos, ultra ter mille versus continentes, quorum initium est,
+
+'Hora novissima, tempora pessima sunt, vigilemus.
+Ecce minaciter, imminet arbiter ille supremus.'
+
+Dicavit eos versus Petro Cluniacensi, Abbati. Legi praecipuè dignus est hic Auctor, inter omnes Scriptores Rhythmicos, non tantùm ob dictionem facilem et argutam, sed quia corruptos seculi mores ingeniosè subinde perstringit. Edidit hos Rhythmos, Nathan. Chytraeus, An. 1597. et Petrus Lucius, Rintelii 1626; nec non Eilhardus Lubinus. MS. asservatur in Academia Hafniensi, referente Borrichio.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="48">
+<p>
+SEC. 13. ––XLVIII. Seculo XIII. ab anno scil. 1260. usque ad 321 vixit Dantes Aligerius, Italus Florentinus, eruditione atque auctoritate vir celeberrimus. Praeter alia scripta, reliquit etiam Comoedias et Poëmata de Purgatorio, Inferno, Paradiso, etc. Composuit etiam librum quendam tripartitum, cui Monarchiae titulum fecerat: in quo Romam, Apocalypticam illam Babylonem esse, apertè dixit: propter quem ipsum Librum etiam post fata haereseos condemnatus est.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="49">
+<p>
+SEC. 14. ––XLIX. Henrico VII. imperante, Ann. 1310. Guido, patriâ Ferrariensis, Ordinis Praedicatorum Monachus, postea Ferrarae Episcopus, carmine utriusque Testamenti Libros, historicè et allegoricè complexus est: quod opus Margaritam Bibliae inscripsit, et Papae Clementi VII. dedicavit. Huic accensendus est Jacobus, Cardinalis Diaconus S. Georgii ad Velum Aureum, à Bonifacio VIII. ad istam purpuram promotus. Composuit is librum prosaicum de Jubileo, itemque Carmen Heroicum, ejusdem argumenti; quae opera habentur Tom. VI. Bibl. PP. edit. 2. Paris. f. 647. et 662.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="50">
+<p>
+L. Ad finem vergente hoc quoque seculo, Nicolaus de Clemangis, origine Gallus, in pago Clemange, sito in Campania, ejusdemque provincia Catalannia, natus, Bajocensis Archidiaconus, claruit, vir undiquaque doctissimus. Hic inter multa alia scripta, quorum seriem saepè laudatus Olearius recenset, 'Deplorationem quoque Calamitatis Ecclesiasticae, per Schisma nefandissimum, cum Exhortatione Pontificum ad ejus Exstirpationem,' carminicè conscriptam reliquit. Quod carmen, unà cum reliquis ejus operibus, elegantissimâ editione evulgavit Joh. Martin. Lydius, Lugdun. Batav. 1613.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="51">
+<p>
+SEC. 15. ––LI. Joh. Baptista, à patria , Mantuanus, aliàs Spagnolus dictus, Anno 1448. natus est, Carmelitici postea ordinis Princeps et Antistes. Poëtarum sui seculi dux potiùs, quàm Poëta ipse. Pluribus ingenii monumentis, ac imprimis versibus innumerabilibus ferè publicatis, unus propè Poëta, et alter Maro, vulgò habitus est. Inter Opera ejus eminent, de Beata Vita Dialogus; de Calamitate suorum Temporum; Consolatio Mortis; de Contemtu Mortis et de Patientia. Decessit ex hac vita Mantuae, An. 1516.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="52">
+<p>
+LII. Maphaeus Vegius, Laudensis, primariae aedis in Urbe Canonicus, et Martini V. Papae Datarius, Orator et Poëma sui temporis insignis exstitit. Opuscula ejus, quae in Bibliotheca Magna Coloniensi, Tom. XV. reperiuntur, praecipua haec sunt, de Educatione Liberorum et Claris Moribus; de Perseverantis in Religione; de IV. Hominis Novissimis; Philalethes, sive Veritas invisa et exulans; de Praestantia Terrae, Solis et Auri; et quaedam poëmata Heroica, ut Vita S. Antonii, et alia.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="53">
+<p>
+LIII. Agmen hoc claudat Conradus Celtes, primus in Germania poëta Laureatus. Is in dias luminis auras prodiit, Swinfurti in Francia Orientali ad Moenum, Anno 1459. Kal. Febr. manè, circiter horam 3. Infans mirabiliter vagiisse perhibetur. Super quo responsum fuit à nutricibus, disertum eum et admodum celebrem virum futurum esse; id quod etiam exitus comprobavit: adultus enim, conciliatus est Serenissimo Saxoniae Duci Friderico, de cujus voluntate atque auspicio Lauream Poëticam obtinuit, Anno aetatis suae XXXII. Coronatus quippe in arce Noribergensi, ab ipso Imperatore Friderico III. Anno 1487. Kal. Maj. Unde ipse sibi ita est gratulatus:
+
+'Primus ego titulum gessi nomenque poëtae,
+	Caesareis manibus Laurea nexa, mihi.'
+
+Multa et praeclara scripsit in poëtica, ut Libros Amorum, Carminum, Epigrammatum, etc. Inter Sacros autem Poëtas collocari meruit Parnasso suo Bicipiti, in quo Poëtas et Theologos conciliat. Decessit Ann. 1508. 2. Non. Febr.
+</p>
+</div>
+
+<div type="textpart" subtype="chapter" n="54">
+<p>
+LIV. Restaret nunc, ut superioris XVI. et nostri XVII. Seculi poëtas recensere deberem; sed quia illorum numerus in tantum excrevit, ut vix numerari, nedum recenseri accuratiùs possint, hic filum abrumpo, et hanc operam aliis relinquo: quam, si quis suscepturus est, deprehendet, bina haec secula, ut in omni ferè scientiarum genere, ita imprimis etiam in Sacra Poësi, tantos progressus fecisse, ut antecedentibus omnibus post Christum Natum seculis palmam praeripuisse, haud vanè perhiberi possint.
+</p>
+</div>
+</p>
+</div>
+
+</body>
+</text>
+</TEI>
