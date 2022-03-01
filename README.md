@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/464987689.svg)](https://zenodo.org/badge/latestdoi/464987689)
 
 # Andreas Christian Eschenbach's De Poetis Christianis Sacris Graecis et Latinis
 
